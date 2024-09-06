@@ -1,4 +1,4 @@
-## Interface: 110002, 40400
+## Interface: 110002, 40401
 ## Title: DataStore_Auctions
 ## IconTexture: Interface\Icons\garrison_building_storehouse
 
@@ -10,6 +10,7 @@
 ## X-Category: Interface Enhancements
 
 Locale.xml
+Options.xml
 
 DataStore_Auctions.lua
 API\Common.lua
