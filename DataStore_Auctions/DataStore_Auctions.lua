@@ -228,7 +228,8 @@ DataStore:OnPlayerLogin(function()
 	addon:ListenTo("AUCTION_HOUSE_SHOW", OnAuctionHouseShow)
 	addon:ListenTo("PLAYER_INTERACTION_MANAGER_FRAME_SHOW", OnAuctioneerShow)
 	
-	if not isRetail then
+	-- If we're using the version that has the AuctionsOptions frame, set the appropriate values
+	if _G["AuctionsOptions"] then
 		addon:SetupOptions()
 	end
 end)
